@@ -1,6 +1,9 @@
 const express = require('express')
 const app = express()
 const port = 3000
+var path = require('path')
+
+app.use(express.static(__dirname + 'public'));
 
 app.get("/", function (request, response){
     //show this file when the "/" is requested
@@ -15,13 +18,15 @@ app.listen(port, (err) => {
   console.log(`server is listening on ${port}`)
 })
 
+// app.use(express.static(path.join(__dirname, '/public')));
+
 
 var mysql = require('mysql')
 var connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'shirleykabir',
-  password : 's3kreee7',
-  database : 'my_db'
+  password : 'Zanifur1997',
+  database : 'bescene'
 });
 
 connection.connect()
