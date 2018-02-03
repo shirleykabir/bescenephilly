@@ -1,13 +1,32 @@
-const express = require('express')
-const app = express()
-const port = 3000
-var path = require('path')
-
-app.use(express.static(__dirname + 'public'));
+const express = require('express');
+const app = express();
+const port = 3000;
+var path = require('path');
+var $ = require('jQuery');
 
 app.get("/", function (request, response){
     //show this file when the "/" is requested
     response.sendFile(__dirname+"/index.html");
+});
+
+app.get("/district", function (request, response){
+    //show this file when the "/" is requested
+    response.sendFile(__dirname+"/index2.html");
+});
+
+app.get('/districts', function (request, response) {
+  connection.connect();
+
+  connection.query('SELECT * FROM neighborhoods', function(err, rows, fields)
+  {
+      connection.end();
+
+      if (err) throw err;
+
+      response.sendFile(__dirname+"/index2.html");
+      response.json(rows);
+
+  });
 });
 
 app.listen(port, (err) => {
@@ -18,23 +37,22 @@ app.listen(port, (err) => {
   console.log(`server is listening on ${port}`)
 })
 
-// app.use(express.static(path.join(__dirname, '/public')));
+
+app.use(express.static(__dirname + '/public'));
 
 
 var mysql = require('mysql')
-var connection = mysql.createConnection({
+var con = mysql.createConnection({
   host     : 'localhost',
   user     : 'shirleykabir',
   password : 'Zanifur1997',
   database : 'bescene'
 });
 
-connection.connect()
-
-connection.query('SELECT 1 + 1 AS solution', function (err, rows, fields) {
-  if (err) throw err
-
-  console.log('The solution is: ', rows[0].solution)
-})
-
-connection.end()
+con.connect(function(err) {
+  if (err) throw err;
+  con.query("SELECT * FROM neighborhoods", function (err, result, fields) {
+    if (err) throw err;
+    console.log(result);
+  });
+});
