@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Forty by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+
+<body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="landing.html">Landing</a></li>
+                <li><a href="generic.html">Generic</a></li>
+                <li><a href="elements.html">Elements</a></li>
+            </ul>
+            <ul class="actions vertical">
+                <li><a href="#" class="button special fit">Get Started</a></li>
+                <li><a href="#" class="button fit">Log In</a></li>
+            </ul>
+        </nav>
+
+        <!-- Banner -->
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- One -->
+            <section id="one" class="tiles">
+              <div id="districts_info">
+              </div>
+            </section>
+
+        </div>
+
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+    // $.ajax({
+    //   url: '/test',
+    //   complete: function(data) {
+    //     document.getElementById("wrapper").innerHTML = data;
+    //   }
+    // });
+
+
+$(document).ready(function(){
+
+    jQuery.support.cors = true;
+
+    $.ajax(
+    {
+        type: "GET",
+        url: '/venue_data',
+        data: "{}",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        cache: false,
+        success: function (data) {
+
+          const whereto = document.getElementById("districts_info");
+          whereto.innerHTML = data;
+
+          for (var i = 0; i < data.length; i++) {
+            var aItem = document.createElement('article');
+            aItem.innerHTML = `<span class="image"><img src="${data[i].img}" alt=""/></span><header class="major"><h3><a href="/district/${data[i].id}" class="link">${data[i].name}</a></h3><p>${data[i].zipcode}</p></header>`;
+
+            whereto.appendChild(aItem);
+          }
+
+
+          //
+          // for (var i = 0; i < data.length; i++) {
+          //   var aItem = document.createElement('article');
+          //   aItem.innerHTML = `<span class="image"><img src="${data[i].img}" alt=""/></span><header class="major"><h3><a href="/district/${data[i].id}" class="link">${data[i].name}</a></h3><p>${data[i].zipcode}</p></header>`;
+          //
+          //   whereto.appendChild(aItem);
+          // }
+
+        },
+
+        error: function (msg) {
+
+            alert(msg.responseText);
+        }
+    });
+})
+    </script>
+    <!-- Scripts -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="/js/main.js"></script>
+
+</body>
+
+</html>

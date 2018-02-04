@@ -1,0 +1,75 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+body {
+  padding: 50px 100px;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  text-transform:uppercase;
+  font-size:12px;
+  letter-spacing: 2px;
+}
+
+#main { /* check out all the things you can do - just with text! */
+/*  position: inherit;*/
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32px; /* a lot of things in CSS are measured in pixels, px. */ 
+}
+
+#contain { /* the hashtag '#' means that the div type is ID, i.e, 
+            it can only be referenced once in the HTML file. */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.image img { /* the dot '.' means that the div type is CLASS, i.e, 
+            it can only be referenced multiple times in the HTML file. */
+  margin-top:25px; /* amount of white space above the element */
+  max-width: 400px;
+  max-height: 500px;
+  border: 5px solid black; /* adding a black, solid border with thickness 5px */ 
+  padding: 5px; /* creates white space around image */
+}
+
+.description {
+  display:inline-block;
+  margin-top: 25px;
+  position:relative;
+  text-align:center;
+  font-size:12px;
+  color: black;
+  width:400px;
+  height: 100px;
+  overflow-y: auto;
+}
+/* the 'a' means that all elements of the tag 'links' that is a link. */
+.links a {
+  color: red;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* the 'hover' means the following style is only applied upon hovering 
+over the element */ 
+.links a:hover {
+  color: purple;
+  text-decoration: underline;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
