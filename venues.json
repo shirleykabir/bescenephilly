@@ -135,7 +135,7 @@
 	},
 	{
 			"neighborhood": "Fishtown",
-			"venues": [
+,			"venues": [
             {
                 "location": "Amalgalam Comics",
                 "link": "http://www.amalgamphilly.com/pages.php?pageid=8",
@@ -165,7 +165,7 @@
             },
 			
 			{
-				"location": "Copabanana"
+				"location": "Copabanana",
 				"link": "https://www.facebook.com/events/276032872906560/",
                 		"event": "National Margarita Day",
 				"date": "Thurs, Feb 22",
