@@ -31,7 +31,7 @@
                 "event": "Karaoke Night",
 				"date": "Fri, Feb 16",
 				"PlaceId": "ChIJh7CgRy7GxokRJ1eaM21VO48", 
-				"img": "\media\Karaoke Nights%20Dilworth%20Park%20.jpg"
+				"img": "https://i2.wp.com/brickyard20alehouse.com/wp-content/uploads/2017/04/KaraokeNight.jpg?fit=610%2C375"
             },
 			{
                 "location": "Reading Terminal Market",
@@ -39,7 +39,7 @@
                 "event": "Chinese New Year Celebration",
 				"date": "Sat, Feb 17",
 				"PlaceId": "ChIJCQH7WCnGxokRAWsd3AfQj80",
-				"img": "\media\Chinese%20New%20Year%20Celebration.jpg"
+				"img": "http://www.visitphilly.com/thumb.php?w=1000&zc=1&src=http://photos.visitphilly.com/ReadingTerminalMarket-popped_R.Kennedy_20-1400VP.jpg"
             }
 
         ]
