@@ -31,7 +31,7 @@
                 "event": "Karaoke Night",
 				"date": "Fri, Feb 16",
 				"PlaceId": "ChIJh7CgRy7GxokRJ1eaM21VO48", 
-				"img": "\media\Karaoke Nights Dilworth Park .jpg"
+				"img": "\media\Karaoke Nights%20Dilworth%20Park%20.jpg"
             },
 			{
                 "location": "Reading Terminal Market",
@@ -39,7 +39,7 @@
                 "event": "Chinese New Year Celebration",
 				"date": "Sat, Feb 17",
 				"PlaceId": "ChIJCQH7WCnGxokRAWsd3AfQj80",
-				"img": "\media\Chinese New Year Celebration.jpg"
+				"img": "\media\Chinese%20New%20Year%20Celebration.jpg"
             }
 
         ]
@@ -70,7 +70,7 @@
                 "event": "Science After Hours",
 				"date": "Tues, Feb 27",
 				"placeID": "ChIJ05tdhjTGxokReHRD0wXejyE",
-				"img": "\media\Science After Hours .jpg"
+				"img": "\media\Science%20After%20Hours%20.jpg"
             }
         ]
     },
