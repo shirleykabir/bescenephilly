@@ -135,7 +135,7 @@
                 "event": "Paint Nite",
 				"date": "Tues, Feb 20",
 				"placeID": "ChIJO0tfOmbIxokRUHSt12rWKqA", 
-				"img": "\media\Paint Nite at Punch Line Philly.jpg"
+				"img": "https://s3fs.paintnite.com/img/uploaded/2017/04/thumb/paintings58f93dd970195.jpeg"
             },
 			{
                 "location": "North Bowl",
@@ -157,7 +157,7 @@
                 "event": "Comedy Show",
 				"date": "Fri, Feb 9",
 				"placeID": "ChIJYZsSuyTIxokRi7ODjMmG5iU", 
-				"img": "\media\amalgalam.jpg"
+				"img": "https://s3-media2.fl.yelpcdn.com/bphoto/aUlR9d4Ko-qkKfgrN-eOEQ/348s.jpg"
             },
 			 {
                 "location": "InLiquid",
