@@ -9,50 +9,79 @@ app.get("/", function (request, response){
     response.sendFile(__dirname+"/index.html");
 });
 
-app.get("/district", function (request, response){
+app.get("/testingss", function (request, response){
     //show this file when the "/" is requested
-    response.sendFile(__dirname+"/index2.html");
+    response.sendFile(__dirname+"/testing.html");
 });
 
-app.get('/districts', function (request, response) {
-  connection.connect();
-
-  connection.query('SELECT * FROM neighborhoods', function(err, rows, fields)
-  {
-      connection.end();
-
-      if (err) throw err;
-
-      response.sendFile(__dirname+"/index2.html");
-      response.json(rows);
-
-  });
+app.get("/districts", function (request, response){
+    //show this file when the "/" is requested
+    response.sendFile(__dirname+"/index2.html");
 });
 
 app.listen(port, (err) => {
   if (err) {
     return console.log('something bad happened', err)
   }
-
   console.log(`server is listening on ${port}`)
 })
 
+// var mysql = require('mysql')
+// var con = mysql.createConnection({
+//   host     : 'localhost',
+//   user     : 'shirleykabir',
+//   password : 'Zanifur1997',
+//   database : 'bescene'
+// });
 
-app.use(express.static(__dirname + '/public'));
+var MysqlJson = require('mysql-json');
+var mysqlJson = new MysqlJson({
+    host:'localhost',
+    user:'shirleykabir',
+    password:'Zanifur1997',
+    database:'bescene'
+  });
 
+// mysqlJson.query("SELECT * FROM neighborhoods", function(err, response) {
+//     if (err) throw err;
+//     console.log(response);
+// });
 
-var mysql = require('mysql')
-var con = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'shirleykabir',
-  password : 'Zanifur1997',
-  database : 'bescene'
-});
-
-con.connect(function(err) {
-  if (err) throw err;
-  con.query("SELECT * FROM neighborhoods", function (err, result, fields) {
+app.get('/district_data', function (request, response) {
+  mysqlJson.connect(function(err) {
     if (err) throw err;
-    console.log(result);
+    mysqlJson.query("SELECT * FROM neighborhoods", function(err, response) {
+        if (err) throw err;
+        console.log(response);
+    });
   });
 });
+
+app.get('/test', function(req, res, next) {
+  mysqlJson.connect(function(err) {
+    if (err) throw err;
+    mysqlJson.query("SELECT * FROM neighborhoods", function(err, response) {
+        if (err) throw err;
+        console.log(response);
+        res.json(response);
+    });
+  });
+
+});
+
+// app.get('/district_data', function (request, response) {
+//   con.connect(function(err) {
+//     if (err) throw err;
+//     con.query('SELECT * FROM neighborhoods ',
+//     function (error, rows, fields) {
+//       var objs = [];
+//       for (var i = 0;i < rows.length; i++) {
+//           objs.push({id: rows[i].id, name: rows[i].name, zipcode: rows[i].zipcode, img: rows[i].img});
+//       }
+//       con.end();
+//       response.end(JSON.stringify(objs));
+//     });
+//   });
+// });
+
+app.use(express.static(__dirname + '/public'));
