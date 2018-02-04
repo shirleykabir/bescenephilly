@@ -107,7 +107,7 @@
 			 ]
 	},
 	{
-			"neighborhood": "Northern Liberties"
+			"neighborhood": "Northern Liberties",
 			"venues": [
             {
                 "location": "Schmidt's Commons",
@@ -134,7 +134,7 @@
 			 ]
 	},
 	{
-			"neighborhood": "Fishtown"
+			"neighborhood": "Fishtown",
 			"venues": [
             {
                 "location": "Amalgalam Comics",
@@ -154,7 +154,7 @@
 			 ]
 	},
 	{
-			"neighborhood": "South Street"
+			"neighborhood": "South Street",
 			"venues": [
             {
                 "location": "TLA",
@@ -175,7 +175,7 @@
 				 ]
 	},
 	{
-			"neighborhood": "Cecil B Moore"
+			"neighborhood": "Cecil B Moore",
 			"venues": [
             {
                 "location": "Pub Webb",
