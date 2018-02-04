@@ -70,7 +70,7 @@
                 "event": "Science After Hours",
 				"date": "Tues, Feb 27",
 				"placeID": "ChIJ05tdhjTGxokReHRD0wXejyE",
-				"img": "\media\Science%20After%20Hours%20.jpg"
+				"img": "https://www.fi.edu/sites/default/files/styles/gallery_large/public/images/media/image/Events_Weddings8_MK.jpg?itok=8lIPCgUR"
             }
         ]
     },
@@ -91,7 +91,7 @@
                 "event": "Pay What You Can - Toni Morrison",
 				"date": "Wed, Feb 28",
 				"placeID": "ChIJWTzK-oXIxokR_N_4cV8BHoc",
-				"img": "\media\Pay What You Can Toni Morison's The Bluest Eye.jpg"
+				"img": "http://www.myphillyalive.com/wp-content/uploads/2012/03/A-Arden-Theatre-Theaters-in-Philadelphia.jpg"
             },
             {
 				"location": "Cuba Libre",
@@ -99,7 +99,7 @@
                 "event": "Carnaval - A Brazilian Celebration",
 				"date": "Sat, Feb 10",
 				"placeID": "ChIJ_8Tvm4XIxokRBA-RzDneztg",
-				"img": "\media\Carnival- Brazilian Celebration.jpg"
+				"img": "http://www.cubalibrerestaurant.com/assets/img/slideshows/en/nightlife/slide-nightlife_philadelphia_394.jpg"
             }
 
 			 ]
@@ -165,7 +165,7 @@
                 "event": "InLiquid Gallery Grand Opening",
 				"date": "Thurs, Feb 8",
 				"placeID": "ChIJ-wzLr23IxokRVisnhwkq2G4",
-				"img": "\media\Fade!%20A%20night%20out%20for%20LGBTQ%20women.jpg"
+				"img": "https://inliquid.org/wp-content/uploads/2018/01/Summer-Storm_g2i10.jpg"
             }
 
 			 ]
@@ -188,7 +188,7 @@
                 		"event": "National Margarita Day",
 				"date": "Thurs, Feb 22",
 				"placeID": "ChIJVe6vTfbGxokRLGsTOsmpLpw",
-				"img": "\media\National Margarita Day .jpg"
+				"img": "http://intoxicology.net/wp-content/uploads/2014/05/margarita-1.jpg"
             }
 
 				 ]
@@ -202,7 +202,7 @@
                 "event": "Fade",
 				"date": "Sat, Feb 3",
 				"placeID": "ChIJwWjIVefHxokR0XYHcT_5K6M",
-				"img": "\media\Fade! A night out for LGBTQ women.jpg"
+				"img": "http://cdn.phillymag.com/wp-content/uploads/sites/3/2018/01/fade-900.jpg"
             }
 ]
 }
