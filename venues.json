@@ -161,15 +161,15 @@
                 "link": "http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
                 "event": "The Architects",
 				"date": "Fri, Feb 16",
-				"placeID: "ChIJ1ymsTJnIxokRYlpNP0JNb4c"
+				"placeID": "ChIJ1ymsTJnIxokRYlpNP0JNb4c"
             },
 			
 			{
 				"location": "Copabanana"
 				"link": "https://www.facebook.com/events/276032872906560/",
-                "event": "National Margarita Day",
+                		"event": "National Margarita Day",
 				"date": "Thurs, Feb 22",
-				"placeID: "ChIJVe6vTfbGxokRLGsTOsmpLpw"
+				"placeID": "ChIJVe6vTfbGxokRLGsTOsmpLpw"
             }
 			
 				 ]
@@ -182,7 +182,7 @@
                 "link": "http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
                 "event": "Fade!",
 				"date": "Sat, Feb 3",
-				"placeID: "ChIJwWjIVefHxokR0XYHcT_5K6M"
+				"placeID": "ChIJwWjIVefHxokR0XYHcT_5K6M"
             }
 ]
 }
