@@ -1,188 +1,172 @@
 [
-    {
-        "neighborhood": "Rittenhouse Square",
-        "venues": [
-            {
-                "location": "Coda",
-                "link": "https://www.ticketweb.com/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=8073905&pl=artisan&REFID=clientsitewp",
-                "event": "Hip Hop Night",
-				"date": "Sat, Feb 10",
-				"PlaceId": "ChIJs7b9eTrGxokRSeOK8jRJOrA"
-            },
-          {
-                "location": "Coda",
-                "link": "https://www.facebook.com/events/672010083189628/",
-                "event": "Back to 2000's",
-				"date": "Sat, Feb 3",
-				"PlaceId": "ChIJs7b9eTrGxokRSeOK8jRJOrA"
-            }
-         
-        ]
-    },
-	{
-        "neighborhood": "Center City",
-        "venues": [
-            {
-                "location": "Dilworth Park",
-                "link": "https://www.facebook.com/events/1750071215035442/",
-                "event": "Karaoke Night",
-				"date": "Fri, Feb 16",
-				"PlaceId": "ChIJh7CgRy7GxokRJ1eaM21VO48"
-            },
-			{
-                "location": "Reading Terminal Market",
-                "link": "https://www.facebook.com/events/168347677121439/",
-                "event": "Chinese New Year Celebration",
-				"date": "Sat, Feb 17",
-				"PlaceId": "ChIJCQH7WCnGxokRAWsd3AfQj80"
-            }
-			
-        ]
-    },
-	 {
-        "neighborhood": "Art Museum Area",
-        "venues": [
-            
-            {
-                "location": "Philadelphia Museum of Art",
-                "link": "http://www.philamuseum.org/fridaynights",
-                "event": "Friday Night At The Museum",
-				"date": "Fri, Feb 9",
-				"placeId": "ChIJ_5CoRebFxokR08ApAyF2KIs"
-            },
-            {
-                "location": "Academy of Natural Sciences",
-                "link": "http://ansp.org/programs-and-events/festivals/dinos-after-dark/",
-                "event": "Dinos After Dark",
-				"date": "Fri, Feb 23",
-				"placeID": "ChIJsQ12kDPGxokRYptRvAoz79o"
-            },
-            {
-                "location": "The Franklin Institute",
-                "link": "https://www.fi.edu/special-events/science-after-hours-21-plus",
-                "event": "Science After Hours",
-				"date": "Tues, Feb 27",
-				"placeID: "ChIJ05tdhjTGxokReHRD0wXejyE"
-            }
-        ]
-    },
-    {
-        "neighborhood": "Old City",
-        "venues": [
-            {
-                "location": "Fringe Arts",
-                "link": "http://fringearts.com/event/get-pegged-cabaret-featuring-adrienne-truscot-jackie-soro/",
-                "event": "Get Pegged",
-				"date": "Fri, Feb 16",
-				"placeID: "ChIJP5VKfnDIxokR4W1PjlR7irI"
-            },
-			{
-                "location": "Arden Theatre Company",
-                "link": "https://www.facebook.com/events/328094394367818/",
-                "event": "Pay What You Can - Toni Morrison",
-				"date": "Wed, Feb 28",
-				"placeID: "ChIJWTzK-oXIxokR_N_4cV8BHoc"
-            },
-            {
-				"location": "Cuba Libre",
-                "link": "http://www.cubalibrerestaurant.com/en/philadelphia/nightlife/",
-                "event": "Carnaval - A Brazilian Celebration",
-				"date": "Sat, Feb 10",
-				"placeID: "ChIJ_8Tvm4XIxokRBA-RzDneztg"
-            }
-			
-			 ]
-    },
-    { 
-			"neighborhood": "University City",
-			"venues": [
-            {
-                "location": "World Cafe Live",
-                "link": "https://www.ticketfly.com/purchase/selectSeats?__utmx=-&__utmv=-&__utmk=183522086&__utmz=1.1517693678.1.1.utmcsr%3Dgoogle%7Cutmccn%3D%28organic%29%7Cutmcmd%3Dorganic%7Cutmctr%3D%28not+provided%29&__utma=1.1969636946.1517693678.1517693678.1517693678.1&_ga=2.145363188.1993515295.1517693679-1300768206.1517693678&__utmc=1&__utmb=1.1.10.1517693678&id=1622809&seatSelectorOnly=true",
-                "event": "Syleena Johnson Live",
-				"date": "Fri, Feb 9",
-				"placeID: "ChIJ7RhuX0_GxokRjL5qFrDINys"
-            }
-			
-			 ]
-	},
-	{
-			"neighborhood": "Northern Liberties"
-			"venues": [
-            {
-                "location": "Schmidt's Commons",
-                "link": "https://theschmidtscommons.com/event/super-bowl-lii-february-4-2018/",
-                "event": "Superbowl Party",
-				"date": "Sun, Feb 4",
-				"placeID: "ChIJO687CG_IxokRX9fBky8PcGc"
-            },
-			{
-                "location": "Punch Line Philly",
-                "link": "https://www.facebook.com/events/536411883373403/",
-                "event": "Paint Nite",
-				"date": "Tues, Feb 20",
-				"placeID: " ChIJO0tfOmbIxokRUHSt12rWKqA"
-            },
-			{
-                "location": "North Bowl",
-                "link": "http://www.northbowlphilly.com/calendar-details.php?date=1518152400",
-                "event": "DJ Skeme Richards",
-				"date": "Fri, Feb 9",
-				"placeID: "ChIJj6tQBWXIxokRXeXk9xqsgMo"
-            }
-			
-			 ]
-	},
-	{
-			"neighborhood": "Fishtown"
-			"venues": [
-            {
-                "location": "Amalgalam Comics",
-                "link": "http://www.amalgamphilly.com/pages.php?pageid=8",
-                "event": "Comedy Show",
-				"date": "Fri, Feb 9",
-				"placeID: "ChIJYZsSuyTIxokRi7ODjMmG5iU"
-            },
-			 {
-                "location": "InLiquid",
-                "link": "https://www.facebook.com/events/399993207108660/",
-                "event": "InLiquid Gallery Grand Opening",
-				"date": "Thurs, Feb 8",
-				"placeID: "ChIJ-wzLr23IxokRVisnhwkq2G4"
-            }
-			
-			 ]
-	},
-	{
-			"neighborhood": "South Street"
-			"venues": [
-            {
-                "location": "TLA",
-                "link": "http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
-                "event": "The Architects",
-				"date": "Fri, Feb 16",
-				"placeID: "ChIJ1ymsTJnIxokRYlpNP0JNb4c"
-            },
-			
-			{
-				"location": "Copabanana"
-				"link": "https://www.facebook.com/events/276032872906560/",
-                "event": "National Margarita Day",
-				"date": "Thurs, Feb 22",
-				"placeID: "ChIJVe6vTfbGxokRLGsTOsmpLpw"
-            }
-			
-				 ]
-	},
-	{
-			"neighborhood": "Cecil B Moore"
-			"venues": [
-            {
-                "location": "Pub Webb",
-                "link": "http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
-                "event": "Fade!",
-				"date": "Sat, Feb 3",
-				"placeID: "ChIJwWjIVefHxokR0XYHcT_5K6M"
-            }
-              
-              
+   {
+      "neighborhood":"Rittenhouse Square",
+      "venues":[
+         {
+            "location":"Coda",
+            "link":"https://www.ticketweb.com/t3/sale/SaleEventDetail?dispatch=loadSelectionData&eventId=8073905&pl=artisan&REFID=clientsitewp",
+            "event":"Hip Hop Night",
+            "date":"Sat, Feb 10",
+            "PlaceId":"ChIJs7b9eTrGxokRSeOK8jRJOrA"
+         },
+         {
+            "location":"Coda",
+            "link":"https://www.facebook.com/events/672010083189628/",
+            "event":"Back to 2000's",
+            "date":"Sat, Feb 3",
+            "PlaceId":"ChIJs7b9eTrGxokRSeOK8jRJOrA"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Center City",
+      "venues":[
+         {
+            "location":"Dilworth Park",
+            "link":"https://www.facebook.com/events/1750071215035442/",
+            "event":"Karaoke Night",
+            "date":"Fri, Feb 16",
+            "PlaceId":"ChIJh7CgRy7GxokRJ1eaM21VO48"
+         },
+         {
+            "location":"Reading Terminal Market",
+            "link":"https://www.facebook.com/events/168347677121439/",
+            "event":"Chinese New Year Celebration",
+            "date":"Sat, Feb 17",
+            "PlaceId":"ChIJCQH7WCnGxokRAWsd3AfQj80"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Art Museum Area",
+      "venues":[
+         {
+            "location":"Philadelphia Museum of Art",
+            "link":"http://www.philamuseum.org/fridaynights",
+            "event":"Friday Night At The Museum",
+            "date":"Fri, Feb 9",
+            "placeId":"ChIJ_5CoRebFxokR08ApAyF2KIs"
+         },
+         {
+            "location":"Academy of Natural Sciences",
+            "link":"http://ansp.org/programs-and-events/festivals/dinos-after-dark/",
+            "event":"Dinos After Dark",
+            "date":"Fri, Feb 23",
+            "placeID":"ChIJsQ12kDPGxokRYptRvAoz79o"
+         },
+         {
+            "location":"The Franklin Institute",
+            "link":"https://www.fi.edu/special-events/science-after-hours-21-plus",
+            "event":"Science After Hours",
+            "date":"Tues, Feb 27",
+            "placeID: "            ChIJ05tdhjTGxokReHRD0wXejyE"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Old City",
+      "venues":[
+         {
+            "location":"Fringe Arts",
+            "link":"http://fringearts.com/event/get-pegged-cabaret-featuring-adrienne-truscot-jackie-soro/",
+            "event":"Get Pegged",
+            "date":"Fri, Feb 16",
+            "placeID: "            ChIJP5VKfnDIxokR4W1PjlR7irI"
+         },
+         {
+            "location":"Arden Theatre Company",
+            "link":"https://www.facebook.com/events/328094394367818/",
+            "event":"Pay What You Can - Toni Morrison",
+            "date":"Wed, Feb 28",
+            "placeID: "            ChIJWTzK-oXIxokR_N_4cV8BHoc"
+         },
+         {
+            "location":"Cuba Libre",
+            "link":"http://www.cubalibrerestaurant.com/en/philadelphia/nightlife/",
+            "event":"Carnaval - A Brazilian Celebration",
+            "date":"Sat, Feb 10",
+            "placeID: "            ChIJ_8Tvm4XIxokRBA-RzDneztg"
+         }
+      ]
+   },
+   {
+      "neighborhood":"University City",
+      "venues":[
+         {
+            "location":"World Cafe Live",
+            "link":"https://www.ticketfly.com/purchase/selectSeats?__utmx=-&__utmv=-&__utmk=183522086&__utmz=1.1517693678.1.1.utmcsr%3Dgoogle%7Cutmccn%3D%28organic%29%7Cutmcmd%3Dorganic%7Cutmctr%3D%28not+provided%29&__utma=1.1969636946.1517693678.1517693678.1517693678.1&_ga=2.145363188.1993515295.1517693679-1300768206.1517693678&__utmc=1&__utmb=1.1.10.1517693678&id=1622809&seatSelectorOnly=true",
+            "event":"Syleena Johnson Live",
+            "date":"Fri, Feb 9",
+            "placeID: "            ChIJ7RhuX0_GxokRjL5qFrDINys"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Northern Liberties"      "venues":[
+         {
+            "location":"Schmidt's Commons",
+            "link":"https://theschmidtscommons.com/event/super-bowl-lii-february-4-2018/",
+            "event":"Superbowl Party",
+            "date":"Sun, Feb 4",
+            "placeID: "            ChIJO687CG_IxokRX9fBky8PcGc"
+         },
+         {
+            "location":"Punch Line Philly",
+            "link":"https://www.facebook.com/events/536411883373403/",
+            "event":"Paint Nite",
+            "date":"Tues, Feb 20",
+            "placeID: "            ChIJO0tfOmbIxokRUHSt12rWKqA"
+         },
+         {
+            "location":"North Bowl",
+            "link":"http://www.northbowlphilly.com/calendar-details.php?date=1518152400",
+            "event":"DJ Skeme Richards",
+            "date":"Fri, Feb 9",
+            "placeID: "            ChIJj6tQBWXIxokRXeXk9xqsgMo"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Fishtown"      "venues":[
+         {
+            "location":"Amalgalam Comics",
+            "link":"http://www.amalgamphilly.com/pages.php?pageid=8",
+            "event":"Comedy Show",
+            "date":"Fri, Feb 9",
+            "placeID: "            ChIJYZsSuyTIxokRi7ODjMmG5iU"
+         },
+         {
+            "location":"InLiquid",
+            "link":"https://www.facebook.com/events/399993207108660/",
+            "event":"InLiquid Gallery Grand Opening",
+            "date":"Thurs, Feb 8",
+            "placeID: "            ChIJ-wzLr23IxokRVisnhwkq2G4"
+         }
+      ]
+   },
+   {
+      "neighborhood":"South Street"      "venues":[
+         {
+            "location":"TLA",
+            "link":"http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
+            "event":"The Architects",
+            "date":"Fri, Feb 16",
+            "placeID: "            ChIJ1ymsTJnIxokRYlpNP0JNb4c"
+         },
+         {
+            "location":"Copabanana"            "link":"https://www.facebook.com/events/276032872906560/",
+            "event":"National Margarita Day",
+            "date":"Thurs, Feb 22",
+            "placeID: "            ChIJVe6vTfbGxokRLGsTOsmpLpw"
+         }
+      ]
+   },
+   {
+      "neighborhood":"Cecil B Moore"      "venues":[
+         {
+            "location":"Pub Webb",
+            "link":"http://venue.tlaphilly.com//EventDetail?tmeventid=02005317A7E171CD&offerid=0",
+            "event":"Fade!",
+            "date":"Sat, Feb 3",
+            "placeID: "            ChIJwWjIVefHxokR0XYHcT_5K6M"
+         }

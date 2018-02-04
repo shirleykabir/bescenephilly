@@ -4,6 +4,8 @@ const port = 3000;
 var path = require('path');
 var $ = require('jQuery');
 
+var ven = require('./venues.json')
+
 app.get("/", function (request, response){
     //show this file when the "/" is requested
     response.sendFile(__dirname+"/index.html");
@@ -67,6 +69,16 @@ app.get('/test', function(req, res, next) {
     });
   });
 
+});
+
+
+app.get('/venue_data', function(req, res, next) {
+  res.json(ven);
+
+});
+app.get("/venues", function (request, response){
+    //show this file when the "/" is requested
+    response.sendFile(__dirname+"/blank.html");
 });
 
 // app.get('/district_data', function (request, response) {
